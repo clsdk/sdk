@@ -12,8 +12,8 @@ public class Test {
 
             ChHttpClient httpClient = new ChHttpClient();
             JSONObject json = new JSONObject();
-            json.put("appId","YOkvjedj");
-            json.put("appKey","NrZEmts1");
+            json.put("appId","");
+            json.put("appKey","");
             json.put("companyKey","佛山市三水区德润渔业科技有限公司");
             json.put("keyType","1");
             object = httpClient.legalRiskPromiseBreak(json);
