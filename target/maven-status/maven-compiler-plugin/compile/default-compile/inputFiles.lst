@@ -1,0 +1,9 @@
+D:\Mypro0717\gsou\src\main\java\gsou\interceptor\RetryInterceptor.java
+D:\Mypro0717\gsou\src\main\java\gsou\config\NetParams.java
+D:\Mypro0717\gsou\src\main\java\gsou\request\ChHttpClient.java
+D:\Mypro0717\gsou\src\main\java\gsou\tools\JsonUtil.java
+D:\Mypro0717\gsou\src\main\java\gsou\config\OkHttpConfig.java
+D:\Mypro0717\gsou\src\main\java\gsou\constant\Constants.java
+D:\Mypro0717\gsou\src\main\java\gsou\exception\BusinessException.java
+D:\Mypro0717\gsou\src\main\java\gsou\request\BaseApi.java
+D:\Mypro0717\gsou\src\main\java\gsou\enums\DataRetCodeEnum.java

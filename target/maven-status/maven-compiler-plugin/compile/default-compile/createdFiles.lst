@@ -1,0 +1,9 @@
+gsou\request\ChHttpClient.class
+gsou\config\OkHttpConfig.class
+gsou\interceptor\RetryInterceptor.class
+gsou\exception\BusinessException.class
+gsou\enums\DataRetCodeEnum.class
+gsou\tools\JsonUtil.class
+gsou\constant\Constants.class
+gsou\request\BaseApi.class
+gsou\config\NetParams.class
