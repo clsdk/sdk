@@ -1,0 +1,2 @@
+# gsou
+maven version management
