@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1204239a-11f3-4acd-9c98-9b8917883989" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/domain/Test.java" afterPath="$PROJECT_DIR$/src/test/domain/Test.java" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,12 +26,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/domain/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="18" column="60" lean-forward="true" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+              <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="375">
+                <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -92,6 +105,7 @@
         <option value="$PROJECT_DIR$/src/main/java/gsou/tools/FileUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/gsou/tools/Base64Util.java" />
         <option value="$PROJECT_DIR$/src/test/domain/Test.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -284,6 +298,116 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Mypro0717\gsou\src\main\java" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -523,11 +647,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539762671141</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="1. 修改测试类">
+      <created>1539763777775</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1539763777775</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49862000" />
+    <option name="totallyTimeSpent" value="50251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -646,7 +777,8 @@
     <MESSAGE value="ss" />
     <MESSAGE value="1. 更新邮箱反欺诈URL&#10;2. 更新地址评分反欺诈URL" />
     <MESSAGE value="1. first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. first commit" />
+    <MESSAGE value="1. 修改测试类" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. 修改测试类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -659,80 +791,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/maven/repository/com/squareup/okhttp3/okhttp/3.8.1/okhttp-3.8.1.jar!/okhttp3/Response.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1175">
-          <caret line="63" column="19" lean-forward="false" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
-          <folding>
-            <marker date="1528274012131" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1528274012131" expanded="false" signature="131:354" ph="..." />
-            <marker date="1528274012131" expanded="true" signature="935:1522" ph="{...}" />
-            <marker date="1528274012131" expanded="false" signature="1552:1563" ph=" { " />
-            <marker date="1528274012131" expanded="false" signature="1583:1589" ph=" }" />
-            <marker date="1528274012131" expanded="false" signature="1621:1632" ph=" { " />
-            <marker date="1528274012131" expanded="false" signature="1653:1659" ph=" }" />
-            <marker date="1528274012131" expanded="false" signature="1682:1693" ph=" { " />
-            <marker date="1528274012131" expanded="false" signature="1710:1716" ph=" }" />
-            <marker date="1528274012131" expanded="true" signature="1751:1762" ph=" { " />
-            <marker date="1528274012131" expanded="true" signature="1805:1811" ph=" }" />
-            <marker date="1528274012131" expanded="false" signature="1840:1851" ph=" { " />
-            <marker date="1528274012131" expanded="false" signature="1871:1877" ph=" }" />
-            <marker date="1528274012131" expanded="false" signature="1911:1922" ph=" { " />
-            <marker date="1528274012131" expanded="false" signature="1944:1950" ph=" }" />
-            <marker date="1528274012131" expanded="false" signature="1996:2007" ph=" { " />
-            <marker date="1528274012131" expanded="false" signature="2040:2046" ph=" }" />
-            <marker date="1528274012131" expanded="false" signature="2099:2110" ph=" { " />
-            <marker date="1528274012131" expanded="false" signature="2149:2155" ph=" }" />
-            <marker date="1528274012131" expanded="true" signature="2240:2350" ph="{...}" />
-            <marker date="1528274012131" expanded="false" signature="2380:2391" ph=" { " />
-            <marker date="1528274012131" expanded="false" signature="2411:2417" ph=" }" />
-            <marker date="1528274012131" expanded="true" signature="2487:2933" ph="{...}" />
-            <marker date="1528274012131" expanded="false" signature="2979:2990" ph=" { " />
-            <marker date="1528274012131" expanded="false" signature="3007:3013" ph=" }" />
-            <marker date="1528274012131" expanded="false" signature="3055:3066" ph=" { " />
-            <marker date="1528274012131" expanded="false" signature="3100:3106" ph=" }" />
-            <marker date="1528274012131" expanded="true" signature="3140:3415" ph="{...}" />
-            <marker date="1528274012131" expanded="false" signature="3468:3479" ph=" { " />
-            <marker date="1528274012131" expanded="false" signature="3507:3513" ph=" }" />
-            <marker date="1528274012131" expanded="false" signature="3564:3575" ph=" { " />
-            <marker date="1528274012131" expanded="false" signature="3601:3607" ph=" }" />
-            <marker date="1528274012131" expanded="false" signature="3658:3669" ph=" { " />
-            <marker date="1528274012131" expanded="false" signature="3695:3701" ph=" }" />
-            <marker date="1528274012131" expanded="true" signature="3743:4112" ph="{...}" />
-            <marker date="1528274012131" expanded="true" signature="4153:4306" ph="{...}" />
-            <marker date="1528274012131" expanded="false" signature="4345:4356" ph=" { " />
-            <marker date="1528274012131" expanded="false" signature="4388:4394" ph=" }" />
-            <marker date="1528274012131" expanded="false" signature="4438:4449" ph=" { " />
-            <marker date="1528274012131" expanded="false" signature="4486:4492" ph=" }" />
-            <marker date="1528274012131" expanded="false" signature="4517:4528" ph=" { " />
-            <marker date="1528274012131" expanded="false" signature="4546:4552" ph=" }" />
-            <marker date="1528274012131" expanded="true" signature="4583:4735" ph="{...}" />
-            <marker date="1528274012131" expanded="true" signature="4769:10019" ph="{...}" />
-            <marker date="1528274012131" expanded="false" signature="5181:5196" ph=" { " />
-            <marker date="1528274012131" expanded="false" signature="5241:5251" ph=" }" />
-            <marker date="1528274012131" expanded="true" signature="5288:5944" ph="{...}" />
-            <marker date="1528274012131" expanded="true" signature="6003:6075" ph="{...}" />
-            <marker date="1528274012131" expanded="true" signature="6137:6211" ph="{...}" />
-            <marker date="1528274012131" expanded="true" signature="6260:6326" ph="{...}" />
-            <marker date="1528274012131" expanded="true" signature="6384:6456" ph="{...}" />
-            <marker date="1528274012131" expanded="true" signature="6531:6607" ph="{...}" />
-            <marker date="1528274012131" expanded="true" signature="6675:6754" ph="{...}" />
-            <marker date="1528274012131" expanded="true" signature="6825:6904" ph="{...}" />
-            <marker date="1528274012131" expanded="true" signature="6964:7042" ph="{...}" />
-            <marker date="1528274012131" expanded="true" signature="7101:7186" ph="{...}" />
-            <marker date="1528274012131" expanded="true" signature="7254:7320" ph="{...}" />
-            <marker date="1528274012131" expanded="true" signature="7406:7631" ph="{...}" />
-            <marker date="1528274012131" expanded="true" signature="7713:7928" ph="{...}" />
-            <marker date="1528274012131" expanded="true" signature="8004:8576" ph="{...}" />
-            <marker date="1528274012131" expanded="true" signature="8658:8854" ph="{...}" />
-            <marker date="1528274012131" expanded="true" signature="8915:9063" ph="{...}" />
-            <marker date="1528274012131" expanded="true" signature="9143:9239" ph="{...}" />
-            <marker date="1528274012131" expanded="true" signature="9329:9435" ph="{...}" />
-            <marker date="1528274012131" expanded="true" signature="9469:10013" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gsou/config/OkHttpConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1417,8 +1475,19 @@
     <entry file="file://$PROJECT_DIR$/src/test/domain/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="18" column="60" lean-forward="true" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+          <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="375">
+            <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
