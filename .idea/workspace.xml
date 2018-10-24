@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1204239a-11f3-4acd-9c98-9b8917883989" name="Default" comment="1. 描述格式更改">
+    <list default="true" id="1204239a-11f3-4acd-9c98-9b8917883989" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/domain/Test.java" afterPath="$PROJECT_DIR$/src/test/java/domain/Test.java" />
-      <change beforePath="$PROJECT_DIR$/target/chuanglan-ws-gsou-1.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,8 +48,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+            <state relative-caret-position="-125">
+              <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -454,7 +447,7 @@
       <workItem from="1539737945400" duration="9964000" />
       <workItem from="1539759648735" duration="28000" />
       <workItem from="1539907801896" duration="751000" />
-      <workItem from="1540348491336" duration="139000" />
+      <workItem from="1540348491336" duration="693000" />
     </task>
     <task id="LOCAL-00001" summary="ss">
       <created>1539678799631</created>
@@ -561,11 +554,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539861858883</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="1. 修改groupId">
+      <created>1540348672923</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1540348672923</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60383000" />
+    <option name="totallyTimeSpent" value="60937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -670,7 +670,8 @@
     <MESSAGE value="1. first commit" />
     <MESSAGE value="1. 修改测试类" />
     <MESSAGE value="1. 描述格式更改" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. 描述格式更改" />
+    <MESSAGE value="1. 修改groupId" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. 修改groupId" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1132,8 +1133,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        <state relative-caret-position="-125">
+          <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
           <folding />
         </state>
       </provider>
