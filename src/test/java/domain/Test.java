@@ -1,4 +1,4 @@
-package gsou.domain;
+package domain;
 
 
 import gsou.request.ChHttpClient;
@@ -6,19 +6,18 @@ import org.json.JSONObject;
 
 public class Test {
 
-
     public static JSONObject konghao(){
         JSONObject object = new JSONObject();
 
             ChHttpClient httpClient = new ChHttpClient();
             JSONObject json = new JSONObject();
-            json.put("appId","");
-            json.put("appKey","");
+            json.put("appId","YOkvjedj");
+            json.put("appKey","NrZEmts1");
             json.put("companyKey","佛山市三水区德润渔业科技有限公司");
             json.put("keyType","1");
             object = httpClient.legalRiskPromiseBreak(json);
 
-            System.out.println(e);
+            System.out.println(object);
 
         return object;
     }

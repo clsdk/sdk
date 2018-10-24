@@ -1,5 +1,6 @@
 gsou\request\ChHttpClient.class
 gsou\config\OkHttpConfig.class
+gsou\tools\FileUtil.class
 gsou\interceptor\RetryInterceptor.class
 gsou\exception\BusinessException.class
 gsou\enums\DataRetCodeEnum.class
