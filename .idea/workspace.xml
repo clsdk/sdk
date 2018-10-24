@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1204239a-11f3-4acd-9c98-9b8917883989" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,41 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FileUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gsou/tools/FileUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2075">
-              <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/domain/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gsou/tools/JsonUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125">
-              <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+            <state relative-caret-position="396">
+              <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -447,7 +419,7 @@
       <workItem from="1539737945400" duration="9964000" />
       <workItem from="1539759648735" duration="28000" />
       <workItem from="1539907801896" duration="751000" />
-      <workItem from="1540348491336" duration="693000" />
+      <workItem from="1540348491336" duration="1933000" />
     </task>
     <task id="LOCAL-00001" summary="ss">
       <created>1539678799631</created>
@@ -561,11 +533,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540348672923</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="1. 修改groupId">
+      <created>1540349189201</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1540349189201</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60937000" />
+    <option name="totallyTimeSpent" value="62177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -577,7 +556,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21162046" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29017857" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5011161" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2563966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -684,16 +663,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/gsou/config/OkHttpConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gsou/constant/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1825">
@@ -724,29 +693,6 @@
         <state relative-caret-position="300">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#14947#14948#0" expanded="false" />
-            <element signature="e#14984#14985#0" expanded="false" />
-            <element signature="e#15042#15043#0" expanded="false" />
-            <element signature="e#15094#15095#0" expanded="false" />
-            <element signature="e#15130#15131#0" expanded="false" />
-            <element signature="e#15164#15165#0" expanded="false" />
-            <element signature="e#15216#15217#0" expanded="false" />
-            <element signature="e#15262#15263#0" expanded="false" />
-            <element signature="e#15299#15300#0" expanded="false" />
-            <element signature="e#15334#15335#0" expanded="false" />
-            <element signature="e#15388#15389#0" expanded="false" />
-            <element signature="e#15436#15437#0" expanded="false" />
-            <element signature="e#15478#15479#0" expanded="false" />
-            <element signature="e#15519#15520#0" expanded="false" />
-            <element signature="e#15584#15585#0" expanded="false" />
-            <element signature="e#15644#15645#0" expanded="false" />
-            <element signature="e#15685#15686#0" expanded="false" />
-            <element signature="e#15725#15726#0" expanded="false" />
-            <element signature="e#15788#15789#0" expanded="false" />
-            <element signature="e#15846#15847#0" expanded="false" />
-            <element signature="e#15875#15876#0" expanded="false" />
-            <element signature="e#15917#15918#0" expanded="false" />
             <marker date="1539763391470" expanded="true" signature="14187:14909" ph="{...}" />
           </folding>
         </state>
@@ -797,29 +743,6 @@
         <state relative-caret-position="300">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#14947#14948#0" expanded="false" />
-            <element signature="e#14984#14985#0" expanded="false" />
-            <element signature="e#15042#15043#0" expanded="false" />
-            <element signature="e#15094#15095#0" expanded="false" />
-            <element signature="e#15130#15131#0" expanded="false" />
-            <element signature="e#15164#15165#0" expanded="false" />
-            <element signature="e#15216#15217#0" expanded="false" />
-            <element signature="e#15262#15263#0" expanded="false" />
-            <element signature="e#15299#15300#0" expanded="false" />
-            <element signature="e#15334#15335#0" expanded="false" />
-            <element signature="e#15388#15389#0" expanded="false" />
-            <element signature="e#15436#15437#0" expanded="false" />
-            <element signature="e#15478#15479#0" expanded="false" />
-            <element signature="e#15519#15520#0" expanded="false" />
-            <element signature="e#15584#15585#0" expanded="false" />
-            <element signature="e#15644#15645#0" expanded="false" />
-            <element signature="e#15685#15686#0" expanded="false" />
-            <element signature="e#15725#15726#0" expanded="false" />
-            <element signature="e#15788#15789#0" expanded="false" />
-            <element signature="e#15846#15847#0" expanded="false" />
-            <element signature="e#15875#15876#0" expanded="false" />
-            <element signature="e#15917#15918#0" expanded="false" />
             <marker date="1539763391470" expanded="true" signature="14187:14909" ph="{...}" />
           </folding>
         </state>
@@ -895,29 +818,6 @@
         <state relative-caret-position="12725">
           <caret line="518" column="13" lean-forward="false" selection-start-line="518" selection-start-column="13" selection-end-line="518" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#14947#14948#0" expanded="false" />
-            <element signature="e#14984#14985#0" expanded="false" />
-            <element signature="e#15042#15043#0" expanded="false" />
-            <element signature="e#15094#15095#0" expanded="false" />
-            <element signature="e#15130#15131#0" expanded="false" />
-            <element signature="e#15164#15165#0" expanded="false" />
-            <element signature="e#15216#15217#0" expanded="false" />
-            <element signature="e#15262#15263#0" expanded="false" />
-            <element signature="e#15299#15300#0" expanded="false" />
-            <element signature="e#15334#15335#0" expanded="false" />
-            <element signature="e#15388#15389#0" expanded="false" />
-            <element signature="e#15436#15437#0" expanded="false" />
-            <element signature="e#15478#15479#0" expanded="false" />
-            <element signature="e#15519#15520#0" expanded="false" />
-            <element signature="e#15584#15585#0" expanded="false" />
-            <element signature="e#15644#15645#0" expanded="false" />
-            <element signature="e#15685#15686#0" expanded="false" />
-            <element signature="e#15725#15726#0" expanded="false" />
-            <element signature="e#15788#15789#0" expanded="false" />
-            <element signature="e#15846#15847#0" expanded="false" />
-            <element signature="e#15875#15876#0" expanded="false" />
-            <element signature="e#15917#15918#0" expanded="false" />
             <marker date="1539763391470" expanded="true" signature="14187:14909" ph="{...}" />
           </folding>
         </state>
@@ -994,34 +894,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gsou/interceptor/RetryInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gsou/exception/BusinessException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gsou/enums/DataRetCodeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gsou/config/NetParams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/maven/repository/com/squareup/okhttp3/okhttp/3.8.1/okhttp-3.8.1.jar!/okhttp3/Response.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1175">
@@ -1029,66 +901,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gsou/config/OkHttpConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gsou/constant/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gsou/tools/test.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/gsou/request/BaseApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gsou/request/ChHttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#14947#14948#0" expanded="false" />
-            <element signature="e#14984#14985#0" expanded="false" />
-            <element signature="e#15042#15043#0" expanded="false" />
-            <element signature="e#15094#15095#0" expanded="false" />
-            <element signature="e#15130#15131#0" expanded="false" />
-            <element signature="e#15164#15165#0" expanded="false" />
-            <element signature="e#15216#15217#0" expanded="false" />
-            <element signature="e#15262#15263#0" expanded="false" />
-            <element signature="e#15299#15300#0" expanded="false" />
-            <element signature="e#15334#15335#0" expanded="false" />
-            <element signature="e#15388#15389#0" expanded="false" />
-            <element signature="e#15436#15437#0" expanded="false" />
-            <element signature="e#15478#15479#0" expanded="false" />
-            <element signature="e#15519#15520#0" expanded="false" />
-            <element signature="e#15584#15585#0" expanded="false" />
-            <element signature="e#15644#15645#0" expanded="false" />
-            <element signature="e#15685#15686#0" expanded="false" />
-            <element signature="e#15725#15726#0" expanded="false" />
-            <element signature="e#15788#15789#0" expanded="false" />
-            <element signature="e#15846#15847#0" expanded="false" />
-            <element signature="e#15875#15876#0" expanded="false" />
-            <element signature="e#15917#15918#0" expanded="false" />
-            <marker date="1539763391470" expanded="true" signature="14187:14909" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/misc/BASE64Encoder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1097,29 +910,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gsou/tools/Base64Util.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/gsou/tools/FileUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2075">
-          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gsou/tools/JsonUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="250">
             <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1131,10 +937,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gsou/tools/JsonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gsou/tools/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="971">
+          <caret line="82" column="36" lean-forward="true" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gsou/request/BaseApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gsou/request/ChHttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1539763391470" expanded="true" signature="14187:14909" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gsou/interceptor/RetryInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gsou/exception/BusinessException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gsou/enums/DataRetCodeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gsou/constant/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gsou/config/OkHttpConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gsou/config/NetParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        <state relative-caret-position="396">
+          <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
           <folding />
         </state>
       </provider>
