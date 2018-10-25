@@ -44,4 +44,8 @@ public interface BaseApi {
 
     public JSONObject sssPhiOcr(JSONObject params);
 
+    public JSONObject emailAntifraud(JSONObject params);
+
+    public JSONObject addressAntifraud(JSONObject params);
+
 }

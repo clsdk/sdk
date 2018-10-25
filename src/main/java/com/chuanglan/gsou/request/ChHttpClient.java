@@ -445,6 +445,50 @@ public class ChHttpClient implements BaseApi {
         return object;
     }
 
+    /**
+     * 邮箱反欺诈
+     * @param params JSONObject
+     * @return JSONObject
+     */
+    @Override
+    public JSONObject emailAntifraud(JSONObject params) {
+        JSONObject object = null;
+        try {
+            RequestBody body = new FormBody.Builder()
+                    .add("appId", JsonUtil.getString(params,"appId"))
+                    .add("appKey", JsonUtil.getString(params,"appKey"))
+                    .add("email", JsonUtil.getString(params,"email"))
+                    .build();
+            object = doAction(body, Constants.emailAntifraud);
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println(e);
+        }
+        return object;
+    }
+
+    /**
+     * 地址反欺诈
+     * @param params
+     * @return
+     */
+    @Override
+    public JSONObject addressAntifraud(JSONObject params) {
+        JSONObject object = null;
+        try {
+            RequestBody body = new FormBody.Builder()
+                    .add("appId", JsonUtil.getString(params,"appId"))
+                    .add("appKey", JsonUtil.getString(params,"appKey"))
+                    .add("address", JsonUtil.getString(params,"address"))
+                    .build();
+            object = doAction(body, Constants.addressAntifraud);
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println(e);
+        }
+        return object;
+    }
+
     private RequestBody getRequestBody(JSONObject params)  {
         return new FormBody.Builder()
                         .add("appId", JsonUtil.getString(params,"appId"))

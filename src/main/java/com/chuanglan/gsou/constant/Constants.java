@@ -67,5 +67,9 @@ public class Constants {
     //菲律宾SSS卡OCR
     public static final String sssPhiOcr = "https://api.253.com/open/i/ocr/sss-phi";
 
+    //邮箱反欺诈
+    public static final String emailAntifraud = "https://api.253.com/open/wool/demail";
 
+    //地址反欺诈
+    public static final String addressAntifraud = "https://api.253.com/open/wool/dadd";
 }
