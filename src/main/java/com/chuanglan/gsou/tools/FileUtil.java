@@ -76,45 +76,52 @@ public class FileUtil {
     }
 
     /**
-     * 在线图片转换成base64字符串
-     * @param imgURL	图片线上路径
-     * @return
-     * @author Dean
-     * @dateTime 2018-06-30 14:43:18
+     * 获取图片转并转换成base64字符串
      */
-    public static String getBaseImage(String imgURL) {
-        ByteArrayOutputStream data = new ByteArrayOutputStream();
-        InputStream is = null;
-        try {
-            // 创建URL
-            URL url = new URL(imgURL);
-            byte[] by = new byte[1024];
-            // 创建链接
-            HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-            conn.setRequestMethod("GET");
-            conn.setConnectTimeout(2000);
-            conn.setReadTimeout(5000);
-            conn.setRequestProperty("connection", "Keep-Alive");
-            is = conn.getInputStream();
-            // 将内容读取内存中
-            int len = -1;
-            while ((len = is.read(by)) != -1) {
-                data.write(by, 0, len);
-            }
-        } catch (IOException e) {
-            System.out.println("ImageToBase64ByOnline error,"+e);
-        }finally {
-            if(is !=null) {
-                try {
-                    is.close();
-                } catch (IOException e) {
-                    System.out.println("InputStream close error,"+e);
+    public static String getBase64Image(String imgPath) {
+        ByteArrayOutputStream data = null;
+        String image = "";
+        BASE64Encoder encoder = new BASE64Encoder();
+        if (imgPath.contains("http") || imgPath.contains("https")) {
+            data = new ByteArrayOutputStream();
+            InputStream is = null;
+            try {
+                // 创建URL
+                URL url = new URL(imgPath);
+                byte[] by = new byte[1024];
+                // 创建链接
+                HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+                conn.setRequestMethod("GET");
+                conn.setConnectTimeout(2000);
+                conn.setReadTimeout(5000);
+                conn.setRequestProperty("connection", "Keep-Alive");
+                is = conn.getInputStream();
+                // 将内容读取内存中
+                int len = -1;
+                while ((len = is.read(by)) != -1) {
+                    data.write(by, 0, len);
                 }
+            } catch (IOException e) {
+                System.out.println("getBase64Image error," + e);
+            } finally {
+                if (is != null) {
+                    try {
+                        is.close();
+                    } catch (IOException e) {
+                        System.out.println("InputStream close error," + e);
+                    }
+                }
+            }
+            image = encoder.encode(data.toByteArray());
+        } else {
+            try {
+                image = encoder.encode(readFileByBytes(imgPath));
+            } catch (IOException e) {
+                e.printStackTrace();
             }
         }
         // 对字节数组Base64编码
-        BASE64Encoder encoder = new BASE64Encoder();
-        return encoder.encode(data.toByteArray());
+        return image;
     }
 
 
