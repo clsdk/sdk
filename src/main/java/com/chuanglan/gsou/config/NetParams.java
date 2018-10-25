@@ -1,4 +1,4 @@
-package gsou.config;
+package com.chuanglan.gsou.config;
 
 
 

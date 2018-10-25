@@ -1,7 +1,7 @@
 package domain;
 
 
-import gsou.request.ChHttpClient;
+import com.chuanglan.gsou.request.ChHttpClient;
 import org.json.JSONObject;
 
 public class Test {

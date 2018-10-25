@@ -1,12 +1,10 @@
-package gsou.interceptor;
+package com.chuanglan.gsou.interceptor;
 
-import gsou.enums.DataRetCodeEnum;
-import gsou.exception.BusinessException;
+import com.chuanglan.gsou.exception.BusinessException;
+import com.chuanglan.gsou.enums.DataRetCodeEnum;
 import okhttp3.Interceptor;
 import okhttp3.Request;
 import okhttp3.Response;
-
-import java.net.SocketTimeoutException;
 
 /**
  * 重试拦截器

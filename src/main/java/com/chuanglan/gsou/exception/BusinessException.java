@@ -1,7 +1,7 @@
-package gsou.exception;
+package com.chuanglan.gsou.exception;
 
 
-import gsou.enums.DataRetCodeEnum;
+import com.chuanglan.gsou.enums.DataRetCodeEnum;
 
 public class BusinessException extends RuntimeException {
 

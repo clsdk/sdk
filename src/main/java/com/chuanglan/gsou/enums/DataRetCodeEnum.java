@@ -1,4 +1,4 @@
-package gsou.enums;
+package com.chuanglan.gsou.enums;
 
 /**
  * 错误代码枚举

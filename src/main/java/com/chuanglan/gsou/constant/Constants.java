@@ -1,4 +1,4 @@
-package gsou.constant;
+package com.chuanglan.gsou.constant;
 
 public class Constants {
 

@@ -1,8 +1,8 @@
-package gsou.config;
+package com.chuanglan.gsou.config;
 
-import gsou.constant.Constants;
-import gsou.exception.BusinessException;
-import gsou.interceptor.RetryInterceptor;
+import com.chuanglan.gsou.constant.Constants;
+import com.chuanglan.gsou.exception.BusinessException;
+import com.chuanglan.gsou.interceptor.RetryInterceptor;
 import okhttp3.ConnectionPool;
 import okhttp3.OkHttpClient;
 

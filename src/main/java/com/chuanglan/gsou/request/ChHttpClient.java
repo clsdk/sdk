@@ -1,11 +1,11 @@
-package gsou.request;
+package com.chuanglan.gsou.request;
 
-import gsou.config.NetParams;
-import gsou.config.OkHttpConfig;
-import gsou.constant.Constants;
-import gsou.enums.DataRetCodeEnum;
-import gsou.exception.BusinessException;
-import gsou.tools.JsonUtil;
+import com.chuanglan.gsou.config.NetParams;
+import com.chuanglan.gsou.tools.JsonUtil;
+import com.chuanglan.gsou.config.OkHttpConfig;
+import com.chuanglan.gsou.constant.Constants;
+import com.chuanglan.gsou.enums.DataRetCodeEnum;
+import com.chuanglan.gsou.exception.BusinessException;
 import okhttp3.*;
 import org.json.JSONObject;
 

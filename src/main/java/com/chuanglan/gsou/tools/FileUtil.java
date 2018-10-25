@@ -1,4 +1,4 @@
-package gsou.tools;
+package com.chuanglan.gsou.tools;
 
 import sun.misc.BASE64Encoder;
 
