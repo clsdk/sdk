@@ -7,4 +7,5 @@ D:\Mypro0717\sdk\src\main\java\com\chuanglan\gsou\config\NetParams.java
 D:\Mypro0717\sdk\src\main\java\com\chuanglan\gsou\enums\DataRetCodeEnum.java
 D:\Mypro0717\sdk\src\main\java\com\chuanglan\gsou\interceptor\RetryInterceptor.java
 D:\Mypro0717\sdk\src\main\java\com\chuanglan\gsou\exception\BusinessException.java
+D:\Mypro0717\sdk\src\main\java\com\chuanglan\gsou\tools\Base64.java
 D:\Mypro0717\sdk\src\main\java\com\chuanglan\gsou\tools\JsonUtil.java

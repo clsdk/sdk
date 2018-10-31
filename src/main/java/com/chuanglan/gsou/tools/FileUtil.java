@@ -19,12 +19,10 @@ public class FileUtil {
         File file = new File(filePath);
         if (!file.exists()) {
             throw new FileNotFoundException(filePath);
-        } 
-
+        }
         if (file.length() > 1024 * 1024 * 1024) {
             throw new IOException("File is too large");
-        } 
-
+        }
         StringBuilder sb = new StringBuilder((int) (file.length()));
         // 创建字节输入流  
         FileInputStream fis = new FileInputStream(filePath);  
@@ -124,5 +122,54 @@ public class FileUtil {
         return image;
     }
 
+
+    /**
+     * 获取图片转并转换成base64字符串跟上面的编码不一样
+     * 仅用于公安人脸对比接口
+     */
+    public static String getImage(String imgPath) {
+        ByteArrayOutputStream data = null;
+        String image = "";
+        if (imgPath.contains("http") || imgPath.contains("https")) {
+            data = new ByteArrayOutputStream();
+            InputStream is = null;
+            try {
+                // 创建URL
+                URL url = new URL(imgPath);
+                byte[] by = new byte[1024];
+                // 创建链接
+                HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+                conn.setRequestMethod("GET");
+                conn.setConnectTimeout(2000);
+                conn.setReadTimeout(5000);
+                conn.setRequestProperty("connection", "Keep-Alive");
+                is = conn.getInputStream();
+                // 将内容读取内存中
+                int len = -1;
+                while ((len = is.read(by)) != -1) {
+                    data.write(by, 0, len);
+                }
+            } catch (IOException e) {
+                System.out.println("getBase64Image error," + e);
+            } finally {
+                if (is != null) {
+                    try {
+                        is.close();
+                    } catch (IOException e) {
+                        System.out.println("InputStream close error," + e);
+                    }
+                }
+            }
+            image = Base64.encode(data.toByteArray());
+        } else {
+            try {
+                image = Base64.encode(readFileByBytes(imgPath));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        // 对字节数组Base64编码
+        return image;
+    }
 
 }

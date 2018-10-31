@@ -72,4 +72,7 @@ public class Constants {
 
     //地址反欺诈
     public static final String addressAntifraud = "https://api.253.com/open/wool/dadd";
+
+    //公安人脸对比
+    public static final String witnessCheckPolice ="https://api.253.com/open/i/witness/witness-check-police";
 }

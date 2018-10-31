@@ -1,6 +1,8 @@
 package com.chuanglan.gsou.request;
 
 import com.chuanglan.gsou.config.NetParams;
+import com.chuanglan.gsou.tools.Base64;
+import com.chuanglan.gsou.tools.FileUtil;
 import com.chuanglan.gsou.tools.JsonUtil;
 import com.chuanglan.gsou.config.OkHttpConfig;
 import com.chuanglan.gsou.constant.Constants;
@@ -8,6 +10,7 @@ import com.chuanglan.gsou.enums.DataRetCodeEnum;
 import com.chuanglan.gsou.exception.BusinessException;
 import okhttp3.*;
 import org.json.JSONObject;
+import sun.misc.BASE64Encoder;
 
 import java.io.IOException;
 
@@ -482,6 +485,32 @@ public class ChHttpClient implements BaseApi {
                     .add("address", JsonUtil.getString(params,"address"))
                     .build();
             object = doAction(body, Constants.addressAntifraud);
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println(e);
+        }
+        return object;
+    }
+
+
+    /**
+     * 公安人脸对比
+     * @param params
+     * @return
+     */
+    @Override
+    public JSONObject witnessCheckPolice(JSONObject params) {
+        JSONObject object = null;
+        try {
+            RequestBody body = new FormBody.Builder()
+                    .add("appId", JsonUtil.getString(params,"appId"))
+                    .add("appKey", JsonUtil.getString(params,"appKey"))
+                    .add("image", JsonUtil.getString(params,"image"))
+                    .add("imageType", JsonUtil.getString(params,"imageType"))
+                    .add("cardNum", JsonUtil.getString(params,"cardNum"))
+                    .add("name", JsonUtil.getString(params,"name"))
+                    .build();
+            object = doAction(body, Constants.witnessCheckPolice);
         } catch (Exception e) {
             e.printStackTrace();
             System.out.println(e);

@@ -4,6 +4,7 @@ com\chuanglan\gsou\interceptor\RetryInterceptor.class
 com\chuanglan\gsou\request\BaseApi.class
 com\chuanglan\gsou\tools\JsonUtil.class
 com\chuanglan\gsou\config\OkHttpConfig.class
+com\chuanglan\gsou\tools\Base64.class
 com\chuanglan\gsou\request\ChHttpClient.class
 com\chuanglan\gsou\tools\FileUtil.class
 com\chuanglan\gsou\enums\DataRetCodeEnum.class

@@ -48,4 +48,6 @@ public interface BaseApi {
 
     public JSONObject addressAntifraud(JSONObject params);
 
+    public JSONObject witnessCheckPolice(JSONObject params);
+
 }
